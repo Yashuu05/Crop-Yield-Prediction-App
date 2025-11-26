@@ -38,7 +38,7 @@
 ├── APP/
 │   ├── myapp.py                # Streamlit web app
 ├── notebooks/
-│   ├── training_notebook.ipynb  # model training 
+│   ├── Crop_yield.ipynb  # model training 
 ├── README.md
 ├── requirements.txt
 
