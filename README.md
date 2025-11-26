@@ -1,24 +1,26 @@
 # 🌾 Crop Yield Prediction – Machine Learning + Streamlit Web App
 
 - This project predicts crop yield on the basis of `crop`, `states`, `area`, `fertilizer` and so on.
-- It uses a Machine Learning regression model trained on crop data (from India), and an interactive Streamlit web app where users can input parameters and instantly get predicted yield values.
+- It uses a Machine Learning regression model trained on crop data and an interactive Streamlit web app where users can input parameters and instantly get predicted yield values.
+- Focuses on Model training using `sklearn`, Feature Engineering / EDA using `pandas`, `seaborn`, `matplotlib` and web app development using `streamlit`. 
 
 ---
 
 # Features
 
-✔ Trained ML regression model with R2 Score of **0.96**.
-✔ Train both Linear Regression and XGB Reegressor. Select best among two.
-✔ Preprocessing + data splitting + evaluation
-✔ Feature importance analysis & visualization
-✔ Interactive Streamlit UI
-✔ Clean and simple design for easy user experience
-✔ Model saved using joblib / pickle for real-time prediction
+- Trained ML regression model with R2 Score of **0.96**.
+- Train both Linear Regression and XGB Reegressor. Select best among two.
+- Preprocessing + data splitting + evaluation
+- Feature importance analysis & visualization
+- Interactive Streamlit UI
+- Clean and simple design for easy user experience
+- Model saved using joblib / pickle for real-time prediction
+
 
 ---
 
 # Tech Stack
-- Python 3.x
+- Python 3.13
 - Scikit-learn –> ML model
 - Pandas –> Data processing
 - Matplotlib and Seaborn –> Visualization
@@ -29,14 +31,14 @@
 
 # Project Structure
 ```
-├── data/
-│   ├── Crop_yield.csv
+├── dataset/
+│   ├── Crop_yield.csv          # dataset used for training
 ├── model/
-│   ├── xgb_model.pkl
+│   ├── xgb_model.pkl           # saved model
 ├── APP/
-│   ├── app.py                # Streamlit web app
+│   ├── myapp.py                # Streamlit web app
 ├── notebooks/
-│   ├── training_notebook.ipynb
+│   ├── training_notebook.ipynb  # model training 
 ├── README.md
 ├── requirements.txt
 
