@@ -1,8 +1,7 @@
-python==
 xgboost==3.1.2
-streamlit==
-sklearn==
-pandas==
-matplotlib==
-seaborn==
-joblib==
+streamlit
+sklearn
+pandas
+matplotlib
+seaborn
+joblib
